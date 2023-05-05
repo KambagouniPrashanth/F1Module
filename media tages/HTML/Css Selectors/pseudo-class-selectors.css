@@ -1,0 +1,49 @@
+
+.parent{
+    margin-bottom: 2px;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: pink;
+}
+
+a:active{
+    color:red;
+}
+
+
+a:hover{
+    color: magenta;
+}
+input:focus{
+    border-color: blueviolet;
+    color: blue;
+   
+}
+.btn{
+    border:1px solid black;
+    border-radius: 20px;
+   
+    padding: 10px 50px;
+    width: 20%;
+    font-size:15px;
+   }
+
+/* button:hover{
+    background-color: white;
+    border:5px solid red;
+    color:blue;
+
+} */
+
+
+button:active{
+    width: 50%;
+}
+button:hover{
+  
+   background-color: brown;
+ 
+}

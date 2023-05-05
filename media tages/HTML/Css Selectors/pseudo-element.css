@@ -1,0 +1,13 @@
+.para-1::first-line{
+    color: aquamarine;
+}
+.para-1::first-letter{
+ color:red;
+ font-size: xx-large;
+}
+.para-1::after{
+    content: "hey there this is inside the pseudo element";
+}
+.para-1::before{
+    content:url(../utils/smily2.png)
+}
