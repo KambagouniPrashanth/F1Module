@@ -1,0 +1,15 @@
+.row{
+    border: 2px solid black;
+}
+/* .col{
+    border-right:1px solid black ;
+} */
+
+@media screen and (max-width:576) {
+    .card img{
+        width: 5rem;
+    }
+    .card .card-body{
+        width: 5rem;
+    }
+}

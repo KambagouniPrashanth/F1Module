@@ -1,0 +1,72 @@
+.nav-item{
+    padding:2px 32px;
+}
+.carousel-item img{
+    height: 100vh;
+    
+}
+
+
+.carousel-indicators [data-bs-target] {
+    background-color: transparent!important;
+}
+/* .img-wrapper{
+    display: flex;
+   
+}
+.img-wrapper img{
+    height:300px;
+} */
+
+.card-wrapper{
+    display: flex;
+    gap:10px;
+}
+
+.footer{
+    background: rgba(0, 128, 0, 0.3); /* Green background with 30% opacity */
+    opacity:30%;
+}
+
+
+.footer-wrapper a{
+    /* text-decoration: none;
+    color: black; */
+    
+}
+.footer-wrapper .row{
+    justify-content: space-evenly;
+}
+.footer .btn-inlast{
+    display: flex;
+    justify-content: space-around;
+    
+    gap:700px;
+
+}
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   
+}
+.card .btn:hover{
+    color:black;
+    background-color: #fff!important;
+
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
+    .image-wrapper .container{
+        width: 50%;
+    }
+    .footer .btn-inlast{
+        gap:20px;
+    }
+    
+    footer .btn-inlast{
+        /* display: flex; */
+        
+        gap:10px;
+    
+    }
+}
